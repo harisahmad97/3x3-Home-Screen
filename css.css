@@ -1,10 +1,9 @@
 //Global Variables
 float buttonX1, buttonY1, buttonWidth1, buttonHeight1;
-float buttonX2, buttonY2, buttonWidth2, buttonHeight2;
 float rectDisplayX, rectDisplayY, rectDisplayWidth, rectDisplayHeight;
 float ellipseX, ellipseY, ellipseXDiameter, ellipseYDiameter;
 float x, y, xDiameter, yDiameter;
-color black
+color yellow
 Boolean rectON=true, ellipseON=false;
 //
 String buttonText1= "home screen";
@@ -15,8 +14,8 @@ color purple = #2;
 void setup()
 {
   //Display Geometry
-  size( 600, 400 ); //fullScreen(); //displayWidth, displayHeight
-  //Display Orientation: Landscape, not portrait nor square
+  size( 400, 400 ); //fullScreen(); //displayWidth, displayHeight
+  //Display Orientation: square
   println (width, height, displayWidth, displayHeight);
   //Swap display key variables for testing
   int appWidth = width; //displayWidth
